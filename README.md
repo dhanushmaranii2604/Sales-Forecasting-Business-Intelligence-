@@ -34,29 +34,33 @@ The project covers the complete data analytics lifecycle — from raw data proce
 
 ## 📂 Project Structure
 Sales-Forecasting-Business-Intelligence/
+
 │
 ├── data/
-│ ├── raw/
-│ │ └── sales.csv
-│ └── processed/
-│ ├── sales_cleaned.csv
-│ ├── monthly_sales.csv
-│ ├── sales_forecast.csv
-│ ├── profit_by_category.csv
-│ ├── loss_products.csv
-│ └── monthly_sales_trend.png
+│   ├── raw/
+│   │   └── sales.csv
+│   └── processed/
+│       ├── sales_cleaned.csv
+│       ├── monthly_sales.csv
+│       ├── sales_forecast.csv
+│       ├── profit_by_category.csv
+│       ├── loss_products.csv
+│       └── monthly_sales_trend.png
 │
 ├── scripts/
-│ ├── 01_load_and_check_data.py
-│ ├── 02_data_cleaning.py
-│ ├── 03_eda.py
-│ └── 04_forecasting.py
+│   ├── 01_load_and_check_data.py
+│   ├── 02_data_cleaning.py
+│   ├── 03_eda.py
+│   └── 04_forecasting.py
 │
 ├── sql/
-│ └── sales_analysis.sql
+│   └── sales_analysis.sql
 │
-└── dashboards/
-└── sales.db
+├── dashboards/
+│   └── sales.db
+│
+└── README.md
+
 
 ---
 
