@@ -101,7 +101,8 @@ The project includes generated plots such as:
 Example:
 
 ![Monthly Sales Trend](data/processed/monthly_sales_trend.png)
-
+[Dashboard Overview](dashboard/dashboard1.png)
+![Dashboard Details](dashboard/dashboard2.png)
 ---
 
 ## 🧠 Business Value
