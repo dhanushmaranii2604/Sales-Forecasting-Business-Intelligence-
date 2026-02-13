@@ -59,11 +59,13 @@ Sales-Forecasting-Business-Intelligence/
 └── sales.db
 
 ---
+
 ## 📁 Dataset Note
 
-Due to file size limitations, large processed datasets are included for demonstration purposes. 
-For full dataset access, please contact the author.
-----
+Due to file size limitations, some processed datasets are large and may not preview directly on GitHub.  
+For full dataset access or collaboration inquiries, feel free to connect via LinkedIn or email.
+
+---
 
 ## 🔍 Key Analysis Performed
 
