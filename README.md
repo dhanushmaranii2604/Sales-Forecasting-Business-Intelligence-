@@ -35,6 +35,7 @@ The project covers the complete data analytics lifecycle — from raw data proce
 ## 📂 Project Structure
 Sales-Forecasting-Business-Intelligence/
 
+Sales-Forecasting-Business-Intelligence/
 │
 ├── data/
 │   ├── raw/
@@ -60,7 +61,6 @@ Sales-Forecasting-Business-Intelligence/
 │   └── sales.db
 │
 └── README.md
-
 
 ---
 
