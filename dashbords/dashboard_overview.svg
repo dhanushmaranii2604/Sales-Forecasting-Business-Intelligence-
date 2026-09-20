@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Sales performance dashboard example</title>
+  <desc id="desc">Executive sales dashboard showing total sales, total profit, category profit, and monthly sales trend.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#020617" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="1400" height="820" fill="#eef2ff"/>
+  <rect width="1400" height="150" fill="url(#bg)"/>
+  <text x="64" y="62" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">Sales Performance Overview</text>
+  <text x="64" y="101" fill="#bfdbfe" font-family="Arial, sans-serif" font-size="17">Historical sales analysis • 2014–2017 • Example dashboard built from processed project data</text>
+  <rect x="1120" y="48" width="210" height="52" rx="26" fill="#1e3a8a" stroke="#60a5fa"/>
+  <text x="1225" y="81" text-anchor="middle" fill="#dbeafe" font-family="Arial, sans-serif" font-size="16" font-weight="700">ALL YEARS</text>
+
+  <g filter="url(#shadow)">
+    <rect x="64" y="180" width="290" height="130" rx="16" fill="#ffffff"/>
+    <rect x="374" y="180" width="290" height="130" rx="16" fill="#ffffff"/>
+    <rect x="684" y="180" width="290" height="130" rx="16" fill="#ffffff"/>
+    <rect x="994" y="180" width="342" height="130" rx="16" fill="#ffffff"/>
+  </g>
+  <text x="90" y="220" fill="#64748b" font-family="Arial, sans-serif" font-size="16">TOTAL SALES</text>
+  <text x="90" y="270" fill="#0f172a" font-family="Arial, sans-serif" font-size="34" font-weight="700">$286.4K</text>
+  <text x="90" y="293" fill="#16a34a" font-family="Arial, sans-serif" font-size="14">Across 48 months</text>
+  <text x="400" y="220" fill="#64748b" font-family="Arial, sans-serif" font-size="16">TOTAL PROFIT</text>
+  <text x="400" y="270" fill="#0f172a" font-family="Arial, sans-serif" font-size="34" font-weight="700">$286.4K</text>
+  <text x="400" y="293" fill="#16a34a" font-family="Arial, sans-serif" font-size="14">Positive overall result</text>
+  <text x="710" y="220" fill="#64748b" font-family="Arial, sans-serif" font-size="16">BEST MONTH</text>
+  <text x="710" y="270" fill="#0f172a" font-family="Arial, sans-serif" font-size="30" font-weight="700">Nov 2017</text>
+  <text x="710" y="293" fill="#2563eb" font-family="Arial, sans-serif" font-size="14">$118.4K sales</text>
+  <text x="1020" y="220" fill="#64748b" font-family="Arial, sans-serif" font-size="16">TOP CATEGORY BY PROFIT</text>
+  <text x="1020" y="270" fill="#0f172a" font-family="Arial, sans-serif" font-size="30" font-weight="700">Technology</text>
+  <text x="1020" y="293" fill="#2563eb" font-family="Arial, sans-serif" font-size="14">$145.5K profit</text>
+
+  <rect x="64" y="345" width="820" height="420" rx="16" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="94" y="390" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Monthly Sales Trend</text>
+  <text x="94" y="417" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Sales by month from monthly_sales.csv</text>
+  <line x1="105" y1="690" x2="845" y2="690" stroke="#cbd5e1"/>
+  <line x1="105" y1="470" x2="105" y2="690" stroke="#cbd5e1"/>
+  <line x1="105" y1="580" x2="845" y2="580" stroke="#e2e8f0" stroke-dasharray="5 6"/>
+  <line x1="105" y1="470" x2="845" y2="470" stroke="#e2e8f0" stroke-dasharray="5 6"/>
+  <text x="78" y="695" fill="#64748b" font-family="Arial, sans-serif" font-size="12">0</text>
+  <text x="45" y="585" fill="#64748b" font-family="Arial, sans-serif" font-size="12">60K</text>
+  <text x="45" y="475" fill="#64748b" font-family="Arial, sans-serif" font-size="12">120K</text>
+  <polyline fill="none" stroke="url(#accent)" stroke-width="5" stroke-linejoin="round" points="105,664 121,682 137,588 153,638 169,646 185,626 201,628 217,644 233,540 249,632 265,546 281,563 297,657 313,668 329,619 345,627 361,635 377,644 393,637 409,622 425,585 441,632 457,550 473,552 489,656 505,648 521,595 537,619 553,585 569,614 585,618 601,633 617,555 633,580 649,512 665,609 681,567 697,648 713,608 729,593 745,562 761,607 777,454 793,526 809,545 825,473 841,536"/>
+  <circle cx="825" cy="473" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+  <text x="100" y="728" fill="#64748b" font-family="Arial, sans-serif" font-size="12">2014</text><text x="338" y="728" fill="#64748b" font-family="Arial, sans-serif" font-size="12">2015</text><text x="570" y="728" fill="#64748b" font-family="Arial, sans-serif" font-size="12">2016</text><text x="790" y="728" fill="#64748b" font-family="Arial, sans-serif" font-size="12">2017</text>
+
+  <rect x="914" y="345" width="422" height="420" rx="16" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="944" y="390" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Profit by Category</text>
+  <text x="944" y="417" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Category contribution from profit_by_category.csv</text>
+  <text x="944" y="480" fill="#334155" font-family="Arial, sans-serif" font-size="16">Technology</text><rect x="944" y="493" width="330" height="28" rx="14" fill="#dbeafe"/><rect x="944" y="493" width="330" height="28" rx="14" fill="#2563eb"/><text x="1290" y="514" text-anchor="end" fill="#0f172a" font-family="Arial, sans-serif" font-size="15" font-weight="700">$145.5K</text>
+  <text x="944" y="565" fill="#334155" font-family="Arial, sans-serif" font-size="16">Office Supplies</text><rect x="944" y="578" width="330" height="28" rx="14" fill="#dcfce7"/><rect x="944" y="578" width="278" height="28" rx="14" fill="#16a34a"/><text x="1290" y="599" text-anchor="end" fill="#0f172a" font-family="Arial, sans-serif" font-size="15" font-weight="700">$122.5K</text>
+  <text x="944" y="650" fill="#334155" font-family="Arial, sans-serif" font-size="16">Furniture</text><rect x="944" y="663" width="330" height="28" rx="14" fill="#fef3c7"/><rect x="944" y="663" width="42" height="28" rx="14" fill="#f59e0b"/><text x="1290" y="684" text-anchor="end" fill="#0f172a" font-family="Arial, sans-serif" font-size="15" font-weight="700">$18.5K</text>
+</svg>
