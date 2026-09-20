@@ -1,158 +1,21 @@
-# 📊 Sales Forecasting & Business Intelligence
+# 📊 Sales Forecasting & Business Intelligence Dashboard
 
-## 📌 Project Overview
-This project focuses on analyzing historical sales data to uncover business insights and build a forecasting model to predict future sales trends. The objective is to support data-driven decision-making using Python, SQL, and Business Intelligence techniques.
+Analyzes historical sales data to uncover business insights and forecast future sales trends, supporting data-driven decision-making through Python, SQL, and Power BI.
 
-The project covers the complete data analytics lifecycle — from raw data processing to forecasting and reporting.
+## 📌 Overview
 
----
+This project covers the complete analytics lifecycle — from raw data processing to forecasting and reporting — turning transactional sales data into actionable business intelligence.
 
 ## 🎯 Objectives
 
 - Clean and preprocess raw sales data
-- Perform Exploratory Data Analysis (EDA)
-- Identify revenue trends and seasonal patterns
+- Perform exploratory data analysis (EDA) to identify revenue trends and seasonal patterns
 - Detect loss-making products and categories
-- Build a sales forecasting model
-- Generate actionable business insights
-- Create structured SQL-based analysis queries
+- Build a time-series sales forecasting model
+- Generate structured SQL-based analysis and actionable business insights
 
----
+## 🛠️ Tools & Technologies
 
-## 🛠️ Tools & Technologies Used
-
-- **Python**
-- Pandas
-- NumPy
-- Matplotlib
-- SQLite
-- SQL
-- Power BI (for dashboard visualization)
-- Excel
-
----
+`Python` · `Pandas` · `NumPy` · `Matplotlib` · `SQLite` · `SQL` · `Power BI` · `Excel`
 
 ## 📂 Project Structure
-Sales-Forecasting-Business-Intelligence/
-
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-├── scripts/
-├── sql/
-├── dashboards/
-└── README.md
-
----
-
-## 📁 Dataset Note
-
-Due to file size limitations, some processed datasets are large and may not preview directly on GitHub.  
-For full dataset access or collaboration inquiries, feel free to connect via LinkedIn or email.
-
----
-
-## 🔍 Key Analysis Performed
-
-### 📈 1. Exploratory Data Analysis (EDA)
-- Monthly revenue trend analysis
-- Category-wise performance analysis
-- Profit margin evaluation
-- Identification of loss-making products
-
-### 📊 2. Business Insights
-- Top-performing categories
-- Seasonal sales patterns
-- Products contributing to losses
-- Revenue growth trends over time
-
-### 🔮 3. Sales Forecasting
-- Time-series based forecasting model
-- Predicted future monthly sales
-- Trend visualization for business planning
-
----
-
-## 📊 Sample Insights
-
-- Identified peak sales months and seasonal demand fluctuations
-- Highlighted underperforming products affecting profitability
-- Generated structured monthly sales trend data
-- Created forecasted sales dataset for future revenue estimation
-
----
-
-## 📷 Visualization
-
-The project includes generated plots such as:
-
-- Monthly Sales Trend
-- Profit by Category
-- Forecasted Sales Trend
-
-Example:
-
-![Monthly Sales Trend](data/processed/monthly_sales_trend.png)
-<img width="700" height="350" alt="dashboard" src="https://github.com/user-attachments/assets/9a408963-42f5-45ef-8c56-fa82f4a12af5" />
-<img width="700" height="350" alt="Screenshot (801)" src="https://github.com/user-attachments/assets/99a5ee87-fd80-4ac3-9838-bb78b577c40e" />
-
----
-
-## 🧠 Business Value
-
-This project demonstrates how raw transactional data can be transformed into meaningful business intelligence through:
-
-- Data Cleaning & Transformation
-- SQL-Based Analysis
-- Forecast Modeling
-- Visualization & Reporting
-
-It can help organizations:
-- Improve inventory planning
-- Optimize product strategy
-- Forecast revenue growth
-- Reduce loss from underperforming products
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/dhanushmaranii2604/Sales-Forecasting-Business-Intelligence-.git
-
-##Navigate to the project directory:
-cd Sales-Forecasting-Business-Intelligence-
-
-##Install required libraries:
-pip install pandas numpy matplotlib
-
-##Run scripts in order:
-python scripts/01_load_and_check_data.py
-python scripts/02_data_cleaning.py
-python scripts/03_eda.py
-python scripts/04_forecasting.py
-
-📌 Skills Demonstrated
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-SQL Query Writing
-Time Series Forecasting
-Business Insight Generation
-Data Visualization
-End-to-End Analytics Workflow
------
-👤 Author
-
-Dhanush M
-MCA Graduate
-Aspiring Data Analyst
-📧 dhanushdhanu1941@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/dhanush-thetechie/?lipi=...
-
-⭐ Conclusion
-
-This project showcases the practical implementation of data analytics techniques to solve real-world business problems. It highlights the ability to work with structured datasets, extract insights, and build forecasting models that assist in strategic decision-making.
