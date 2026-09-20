@@ -4,7 +4,15 @@ A complete sales analytics project that processes historical sales data, uncover
 
 ## Overview
 
-This project follows the full analytics lifecycle—from data cleaning and exploratory analysis to forecasting and dashboard reporting. It transforms raw transactional sales data into actionable business insights.
+This project follows the full analytics lifecycle—from data cleaning and exploratory analysis to forecasting and dashboard reporting. It transforms raw transactional sales data into actionable business insights for revenue planning, sales monitoring, and performance evaluation.
+
+The workflow includes:
+
+- Raw sales data validation and cleaning
+- Exploratory analysis for trends and anomalies
+- SQL-based business analysis
+- Forecast generation using a simple moving-average method
+- Dashboard-style visual summaries for presentation
 
 ## Objectives
 
@@ -13,7 +21,7 @@ This project follows the full analytics lifecycle—from data cleaning and explo
 - Identify revenue trends and seasonal sales patterns
 - Detect low-performing or loss-making products and categories
 - Build a time-series forecasting model for future sales
-- Present insights through analysis outputs and a dashboard
+- Present insights through analysis outputs and dashboard examples
 
 ## Tools & Technologies
 
@@ -27,6 +35,16 @@ This project follows the full analytics lifecycle—from data cleaning and explo
 
 > **Note:** Some processed data files may be large and may not preview directly on GitHub. For full access to the datasets, please contact the author through LinkedIn or email.
 
+## Data Scope
+
+The project is designed around transactional sales records and focuses on understanding patterns in:
+
+- Date-wise sales performance
+- Product or category performance
+- Revenue and profit trends
+- Loss-making products
+- Seasonal and monthly sales behavior
+
 ## What the Project Analyzes
 
 ### Exploratory Data Analysis
@@ -35,6 +53,7 @@ This project follows the full analytics lifecycle—from data cleaning and explo
 - Category-wise sales performance
 - Profit trends
 - Loss-making products
+- Sales movement over time
 
 ### Business Intelligence Insights
 
@@ -73,6 +92,16 @@ python scripts/05_create_dashboard_examples.py
 
 > **Dashboard note:** The forecast is a simple three-month moving average, so these visuals are examples for portfolio presentation and planning—not a replacement for a production forecasting model.
 
+## Key Business Outcomes
+
+This project helps answer practical business questions such as:
+
+- Which products or categories generate the most revenue?
+- Which products are losing money?
+- Are sales patterns consistent across months or seasons?
+- Which periods show growth or decline?
+- How can historical sales data support forecasting and planning?
+
 ## How to Run
 
 Run these commands from the repository root:
@@ -81,10 +110,10 @@ Run these commands from the repository root:
 git clone https://github.com/dhanushmaranii2604/Sales-Forecasting-Business-Intelligence-.git
 cd Sales-Forecasting-Business-Intelligence-
 
-python -m pip install pandas matplotlib
+python -m pip install -r requirements.txt
 
-python scripts/02_data_cleaning.py
 python scripts/01_load_and_check_data.py
+python scripts/02_data_cleaning.py
 python scripts/03_eda.py
 python scripts/04_forecasting.py
 python scripts/05_create_dashboard_examples.py
@@ -146,8 +175,25 @@ Sales-Forecasting-Business-Intelligence-/
 │   └── 05_create_dashboard_examples.py
 ├── sql/
 │   └── sales_analysis.sql
-└── README.md
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
+
+## Limitations & Future Scope
+
+This project is a strong portfolio-style analytics example, but it has a few limitations:
+
+- The forecast is based on a simple moving-average method
+- It does not include advanced forecasting models such as ARIMA, SARIMA, or Prophet
+- The dashboard examples are static and intended for presentation
+
+Potential future improvements:
+
+- Add more advanced forecasting models
+- Build an automated Power BI dashboard
+- Include customer or regional segmentation analysis
+- Add a deployment-ready reporting workflow
 
 ## Author
 
