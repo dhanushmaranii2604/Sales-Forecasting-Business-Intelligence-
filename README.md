@@ -18,7 +18,6 @@ This project covers the complete analytics lifecycle — from raw data processin
 
 `Python` · `Pandas` · `NumPy` · `Matplotlib` · `SQLite` · `SQL` · `Power BI` · `Excel`
 
-
 > **Note:** Some processed datasets are large and may not preview directly on GitHub. For full dataset access, reach out via LinkedIn or email.
 
 ## 🔍 What This Project Analyzes
