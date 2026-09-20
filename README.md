@@ -1,44 +1,60 @@
 # 📊 Sales Forecasting & Business Intelligence Dashboard
 
-Analyzes historical sales data to uncover business insights and forecast future sales trends, supporting data-driven decision-making through Python, SQL, and Power BI.
+A complete sales analytics project that processes historical sales data, uncovers business insights, and forecasts future revenue trends using Python, SQL, and Power BI.
 
-## 📌 Overview
+## Overview
 
-This project covers the complete analytics lifecycle — from raw data processing to forecasting and reporting — turning transactional sales data into actionable business intelligence.
+This project follows the full analytics lifecycle — from data cleaning and exploratory analysis to forecasting and dashboard reporting. It transforms raw transactional sales data into actionable business intelligence for decision-making.
 
-## 🎯 Objectives
+## Objectives
 
 - Clean and preprocess raw sales data
-- Perform exploratory data analysis (EDA) to identify revenue trends and seasonal patterns
-- Detect loss-making products and categories
-- Build a time-series sales forecasting model
-- Generate structured SQL-based analysis and actionable business insights
+- Perform exploratory data analysis (EDA)
+- Identify revenue trends and seasonal sales patterns
+- Detect low-performing or loss-making products and categories
+- Build a time-series forecasting model for future sales
+- Present insights in a clear dashboard and structured SQL analysis
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
-`Python` · `Pandas` · `NumPy` · `Matplotlib` · `SQLite` · `SQL` · `Power BI` · `Excel`
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- SQLite
+- SQL
+- Power BI
+- Excel
 
-> **Note:** Some processed datasets are large and may not preview directly on GitHub. For full dataset access, reach out via LinkedIn or email.
+> Note: Some processed data files are large and may not preview directly on GitHub. For full access to the datasets, please contact the author through LinkedIn or email.
 
-## 🔍 What This Project Analyzes
+## What the Project Analyzes
 
-**Exploratory Data Analysis**
-Monthly revenue trends · category-wise performance · profit margin evaluation · loss-making product identification
+### Exploratory Data Analysis
+- Monthly revenue trends
+- Category-wise sales performance
+- Profit margin trends
+- Identification of loss-making products
 
-**Business Insights**
-Top-performing categories · seasonal sales patterns · products driving losses · revenue growth trends
+### Business Intelligence Insights
+- Top-performing categories
+- Seasonal buying patterns
+- Products creating financial losses
+- Revenue growth trends over time
 
-**Forecasting**
-Time-series based model predicting future monthly sales, with trend visualization for business planning
+### Forecasting
+- Time-series modeling for future monthly sales
+- Trend visualization for planning and forecasting decisions
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ![Monthly Sales Trend](dashbords/monthly-sales-trend.png)
 ![Profit by Category](dashbords/profit-by-category.png)
 ![Forecasted Sales Trend](dashbords/forecasted-sales-trend.png)
 
-## 🚀 How to Run
+## How to Run
 
+```bash
 git clone https://github.com/dhanushmaranii2604/Sales-Forecasting-Business-Intelligence-.git
 cd Sales-Forecasting-Business-Intelligence-
 pip install pandas numpy matplotlib
@@ -47,21 +63,45 @@ python scripts/01_load_and_check_data.py
 python scripts/02_data_cleaning.py
 python scripts/03_eda.py
 python scripts/04_forecasting.py
+```
 
-## 📌 Skills Demonstrated
+## Skills Demonstrated
 
-Data Cleaning & Preprocessing · Exploratory Data Analysis · SQL Query Writing · Time-Series Forecasting · Business Insight Generation · Data Visualization · End-to-End Analytics Workflow
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis
+- SQL Query Writing
+- Time-Series Forecasting
+- Business Insight Generation
+- Data Visualization
+- End-to-End Analytics Workflow
+
+## Project Structure
+
+```text
+Sales-Forecasting-Business-Intelligence-
+├── dashboards/
+│   ├── monthly-sales-trend.png
+│   ├── profit-by-category.png
+│   └── forecasted-sales-trend.png
+├── scripts/
+│   ├── 01_load_and_check_data.py
+│   ├── 02_data_cleaning.py
+│   ├── 03_eda.py
+│   └── 04_forecasting.py
+├── README.md
+├── requirements.txt (if present)
+└── data/ (raw or processed datasets)
+```
 
 ---
 
-## 👤 Author
+## Author
 
 **Dhanush M** — MCA Graduate, IT Support Executive
-📧 dhanushmaranii@gmail.com
-💼 linkedin.com/in/dhanush-thetechie
+
+- 📧 dhanushmaranii@gmail.com
+- 💼 linkedin.com/in/dhanush-thetechie
 
 ---
 
-This project demonstrates practical, end-to-end data analytics — from cleaning raw sales data to generating forecasts and dashboards that support real business decisions.
-
-## 📂 Project Structure
+This project demonstrates a practical, end-to-end analytics workflow — from cleaning raw sales data to generating forecasts and dashboards that support better business decisions.
